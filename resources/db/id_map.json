@@ -1,0 +1,97 @@
+{
+    "entity" : {
+        "living": {
+            "passive": {
+                "animal": {
+                    "dog": {},
+                    "cat": {},
+                    "bird": {}
+                }
+            },
+            "neutral": {
+                "stranger": {}
+            },
+            "hostile": {
+                "guard": {},
+                "raider": {}
+            },
+            "player": {
+                "id": 237,
+                "fullEntityName": "Player",
+                "textures": {},
+                "sounds": {
+                    "hurt": {},
+                    "dead": {},
+                    "success": {}
+                }
+            }
+        },
+        "inanimate": {
+            "container": {
+                "chest": {}
+            },
+            "other": {}
+        }
+    },
+    "item": {
+        "food": {
+            "apple": {},
+            "banana": {},
+            "sandwich": {},
+            "superfood": {
+                "enchantedApple": {}
+            }
+        },
+        "weapon": {
+            "sword": {},
+            "axe": {},
+            "arrow": {}
+        },
+        "tool": {
+            "shovel": {},
+            "map": {}
+        },
+        "armor": {
+            "helmet": {},
+            "chest": {},
+            "pants": {},
+            "boots": {},
+            "shield": {}
+        },
+        "other": {}
+    },
+    "block": {
+        "solid": {
+            "wall": {
+                "brick": {}
+            }
+        },
+        "liquid": {
+            "water": {},
+            "lava": {},
+            "acid": {}
+        },
+        "gas": {
+            "air": {},
+            "smoke": {}
+        },
+        "ambient": {
+            "spike": {}
+        }
+    },
+    "effect": {
+        "potion": {
+            "instant": {
+                "health": {},
+                "stamina": {
+                    "current": {},
+                    "max": {}
+                }
+            },
+            "bottle": {
+                "strength": {},
+                "defense": {}
+            }
+        }
+    }
+}
