@@ -1,0 +1,30 @@
+{
+  "name": "js_game",
+  "version": "0.0.1-alpha",
+  "description": "JavaScript Dungon Crawler made by Sparty182020",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sparty182020/jsGame.git"
+  },
+  "keywords": [
+    "JS",
+    "Javascript",
+    "Game",
+    "HTML5 Game",
+    "Web Game"
+  ],
+  "author": "sparty182020",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/sparty182020/jsGame/issues"
+  },
+  "homepage": "https://github.com/sparty182020/jsGame#readme",
+  "dependencies": {
+    "electron": "^21.2.0",
+    "got": "^12.5.2"
+  }
+}

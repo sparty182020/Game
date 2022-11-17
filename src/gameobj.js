@@ -1,6 +1,6 @@
 // @ts-nocheck
 //! Main Object
-class GameObject {
+class GameObKOject {
     constructor(objType,id) {
         const validTypes = ["effect","invObj","block","entity"];
         if (!validTypes.includes(objType)) throw new TypeError("Invalid GameObj Type")
@@ -196,6 +196,16 @@ class Armor extends Item {
         super('armor',id)
     }
 }
+
+class Helmet extends Armor {}
+
+class Chestplate extends Armor {}
+
+class Pants extends Armor {}
+
+class Boots extends Armor {}
+
+class Shield extends Armor {}
 
 class OtherItem extends Item {
     constructor(id) {

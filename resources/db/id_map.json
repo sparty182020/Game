@@ -13,7 +13,9 @@
             },
             "hostile": {
                 "guard": {},
-                "raider": {}
+                "raider": {},
+                "slime": {},
+                "skelliton": {}
             },
             "player": {
                 "id": 237,
