@@ -24,7 +24,7 @@
   },
   "homepage": "https://github.com/sparty182020/jsGame#readme",
   "dependencies": {
-    "electron": "^21.2.0",
+    "electron": "^22.3.21",
     "got": "^12.5.2"
   }
 }
